@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PERSONA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <div>
+      <label for="name">Nombre:</label>
+      <input type="text" name="name" id="name"/>
+    </div>
+    <div>
+        <label for="lastname">Apellido:</label>
+        <input type="text" name="lastname" id="lastname">
+    </div>
+    <div>
+        <label for="yearNac">Año de nacimiento:</label>
+        <input type="text" name="yearNac" id="yearNac">
+    </div>
+    <div>
+        <label for="Curp">Curp</label>
+        <input type="text" name="Curp" id="Curp">
+    </div>
+    <div>
+        <label for="RFC">RFC</label>
+        <input type="text" name="RFC" id="RFC">
+    </div>
+    
+    <button onclick="savePerson()">Actualizar</button><br>
+    <button onclick="mostrar_rfc()">Mostrar RFC</button><br>
+    <button onclick="mostrar_edad()">Mostrar Edad</button><br>
+    <button onclick="mostrar_genero()">Genero</button><br>
+
+    <script src="index.js"></script>
+  </body>
+</html>
